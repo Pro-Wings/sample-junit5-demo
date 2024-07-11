@@ -35,5 +35,12 @@ public class Login {
         	return false;
 
 	}
+	
+	public String reverseString(String word)
+	{
+		StringBuilder sb = new StringBuilder(word);
+		sb.reverse();
+		return new String(sb);
+	}
 
 }
